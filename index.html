@@ -15,16 +15,23 @@
   <link rel="stylesheet" href="css/main.css">
 
   <meta name="theme-color" content="#fafafa">
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZZ6DKSLB8H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <style>
+        a:link, a:visited {
+            border: black;
+            border-bottom-width: thin;
+            color: white;
+            padding: 8px 22px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
 
-  gtag('config', 'G-ZZ6DKSLB8H');
-</script>
+        a:hover, a:active {
+            background-color: black;
+        }
+    </style>
+
+
 
 </head>
 
@@ -36,7 +43,9 @@
   <!-- Add your site or application content here -->
 
   <div class="container">
-    <h1>zaycation.dev</h1>
+      <h2>zaycation.dev</h2>
+      <h4><a href="contact.html" target="_blank">contact</a></h4>
+      <h4><a href="https://github.com/zaycation" target="_blank">repo</a></h4>
 
 
     <!--
@@ -48,6 +57,13 @@
 
   <h5><a href="404.html" target="_blank">Contact</a></h5> -->
   </div>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
